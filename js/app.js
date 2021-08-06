@@ -16,7 +16,7 @@ const playlist = [
   }
 
   document.querySelector('main').innerHTML = `
-  <lo>
+  <ol>
     ${createListItems(playlist)}
-  </lo>
+  </ol>
   `;
